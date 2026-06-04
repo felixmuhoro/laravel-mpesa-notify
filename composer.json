@@ -21,13 +21,13 @@
     },
     "autoload": {
         "psr-4": {
-            "FelixMuhoro\MpesaNotify\\": "src/"
+            "FelixMuhoro\\MpesaNotify\\\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "FelixMuhoro\MpesaNotify\MpesaNotifyServiceProvider"
+                "FelixMuhoro\\MpesaNotify\\MpesaNotifyServiceProvider"
             ]
         }
     },
