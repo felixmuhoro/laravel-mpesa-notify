@@ -1,7 +1,14 @@
 {
     "name": "felixmuhoro/laravel-mpesa-notify",
-    "description": "M-Pesa payment notification helpers for Laravel — SMS, email and webhook alerts on every payment event.",
-    "keywords": ["laravel", "mpesa", "notifications", "kenya", "safaricom", "payments"],
+    "description": "M-Pesa payment notification helpers for Laravel \u2014 SMS, email and webhook alerts on every payment event.",
+    "keywords": [
+        "laravel",
+        "mpesa",
+        "notifications",
+        "kenya",
+        "safaricom",
+        "payments"
+    ],
     "homepage": "https://github.com/felixmuhoro/laravel-mpesa-notify",
     "license": "MIT",
     "type": "library",
@@ -32,5 +39,8 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "suggest": {
+        "felixmuhoro/laravel-mpesa": "The core M-Pesa Daraja 2.0 integration this package is built on"
+    }
 }
