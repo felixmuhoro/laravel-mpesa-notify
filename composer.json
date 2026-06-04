@@ -1,0 +1,36 @@
+{
+    "name": "felixmuhoro/laravel-mpesa-notify",
+    "description": "M-Pesa payment notification helpers for Laravel — SMS, email and webhook alerts on every payment event.",
+    "keywords": ["laravel", "mpesa", "notifications", "kenya", "safaricom", "payments"],
+    "homepage": "https://github.com/felixmuhoro/laravel-mpesa-notify",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Felix Muhoro",
+            "email": "hi@felixmuhoro.dev",
+            "homepage": "https://felixmuhoro.dev",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "felixmuhoro/laravel-mpesa": "^1.2",
+        "illuminate/support": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/notifications": "^10.0|^11.0|^12.0|^13.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FelixMuhoro\MpesaNotify\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "FelixMuhoro\MpesaNotify\MpesaNotifyServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
