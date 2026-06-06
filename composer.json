@@ -3,7 +3,14 @@
     "description": "Multi-channel notifications (mail, SMS via Africa's Talking, Slack, database) for M-Pesa payment events.",
     "type": "library",
     "license": "MIT",
-    "keywords": ["laravel", "mpesa", "notifications", "sms", "africas-talking", "kenya"],
+    "keywords": [
+        "laravel",
+        "mpesa",
+        "notifications",
+        "sms",
+        "africas-talking",
+        "kenya"
+    ],
     "authors": [
         {
             "name": "Felix Muhoro",
@@ -27,18 +34,18 @@
     },
     "autoload": {
         "psr-4": {
-            "FelixMuhoro\MpesaNotify\\": "src/"
+            "FelixMuhoro\\MpesaNotify\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "FelixMuhoro\MpesaNotify\Tests\\": "tests/"
+            "FelixMuhoro\\MpesaNotify\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "FelixMuhoro\MpesaNotify\MpesaNotifyServiceProvider"
+                "FelixMuhoro\\MpesaNotify\\MpesaNotifyServiceProvider"
             ]
         }
     },
